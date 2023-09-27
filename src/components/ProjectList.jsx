@@ -2,29 +2,29 @@ import ProjectCard from "./ProjectCard";
 const myProjects = [
   {
     id: 1,
+    image: "/portfolio.png",
+    title: "Developer Portfolio",
+    url: "https://bruno-dev-portfolio.netlify.app",
+  },
+  {
+    id: 2,
     image: "/northcoders07.png",
     title: "Northcoders News",
     url: "https://www.bfnc-news.com",
   },
   {
-    id: 2,
+    id: 3,
     image: "/books-buzz1.png",
     title: "Books-Buzz",
     url: "https://books-buzz-app.netlify.app/landing-page",
   },
   {
-    id: 3,
-    image: "/portfolio.png",
-    title: "Developer Portfolio",
-    url: "https://bruno-dev-portfolio.netlify.app",
-  },
-  { id: 4, image: "/fitness1.png", title: "Total Fitness" },
-  {
-    id: 5,
+    id: 4,
     image: "/monsters.png",
     title: "Monster Friends",
     url: "https://brunofernandes21.github.io/monsterfriends/",
   },
+  { id: 5, image: "/fitness1.png", title: "Total Fitness" },
   { id: 6, image: "/cloudTodo.png", title: "Cloud Todo" },
 ];
 const ProjectList = () => {
