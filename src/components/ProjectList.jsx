@@ -24,8 +24,14 @@ const myProjects = [
     title: "Monster Friends",
     url: "https://brunofernandes21.github.io/monsterfriends/",
   },
-  { id: 5, image: "/fitness1.png", title: "Total Fitness" },
-  { id: 6, image: "/cloudTodo.png", title: "Cloud Todo" },
+  {
+    id: 5,
+    image: "/meals-app.png",
+    title: "Meals App",
+    url: "https://brunos-meals-app.netlify.app",
+  },
+  { id: 6, image: "/fitness1.png", title: "Total Fitness" },
+  { id: 7, image: "/cloudTodo.png", title: "Cloud Todo" },
 ];
 const ProjectList = () => {
   return (
