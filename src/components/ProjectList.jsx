@@ -36,8 +36,14 @@ const myProjects = [
     title: "Brunos_Blog",
     url: "https://bfblog.netlify.app/",
   },
-  { id: 7, image: "/fitness1.png", title: "Total Fitness" },
-  { id: 8, image: "/cloudTodo.png", title: "Cloud Todo" },
+  {
+    id: 7,
+    image: "/news-homepage.png",
+    title: "News Homepage",
+    url: "https://bf-news-homepage.netlify.app/",
+  },
+  { id: 8, image: "/fitness1.png", title: "Total Fitness" },
+  { id: 9, image: "/cloudTodo.png", title: "Cloud Todo" },
 ];
 const ProjectList = () => {
   return (
