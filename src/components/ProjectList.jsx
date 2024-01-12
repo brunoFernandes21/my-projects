@@ -2,9 +2,9 @@ import ProjectCard from "./ProjectCard";
 const myProjects = [
   {
     id: 1,
-    image: "/portfolio.png",
+    image: "/my-portfolio.png",
     title: "Developer Portfolio",
-    url: "https://bruno-dev-portfolio.netlify.app",
+    url: "https://bfernandes.netlify.app",
   },
   {
     id: 2,
