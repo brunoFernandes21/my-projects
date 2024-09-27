@@ -8,15 +8,9 @@ const myProjects = [
   },
   {
     id: 2,
-    image: "/northcoders07.png",
-    title: "Northcoders News",
-    url: "https://www.bfnc-news.com",
-  },
-  {
-    id: 3,
-    image: "/books-buzz1.png",
-    title: "Books-Buzz",
-    url: "https://books-buzz-app.netlify.app/landing-page",
+    image: "/react-jobsboard.png",
+    title: "React Jobsboard",
+    url: "https://bf-react-jobsboard.netlify.app",
   },
   {
     id: 4,
@@ -49,7 +43,7 @@ const ProjectList = () => {
   return (
     <div className="flex flex-wrap justify-center gap-4 md:gap-6">
       {myProjects.map((project) => (
-        <ProjectCard 
+        <ProjectCard
           key={project.id}
           image={project.image}
           title={project.title}
